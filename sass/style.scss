@@ -1,0 +1,120 @@
+$name-color: #fff;
+$sidebar-font-color: #ababab;
+$sidebar-hover-color: #4934f3;
+$dark-color: #2f292b;
+
+body, html{
+    background: #1e5799;
+background: -moz-linear-gradient(top,  #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+background: linear-gradient(to bottom,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+
+}
+
+a, p, ul i, h1, h2{
+    text-decoration: none;
+    font-family: 'Source Sans Pro';
+}
+
+#main-container {
+    background: $dark-color;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+
+#left-bar{
+    padding-left: 0;
+}
+
+#name, .sub-title{
+    text-align: center;
+    display: block;
+}
+
+#name{
+    font-size: 1.3em;
+    color: $name-color;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.sub-title{
+    color: $sidebar-font-color;
+    margin-top:0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#main-menu{
+    margin: 50px 0;
+}
+
+ul#main-menu li a{
+    background: $dark-color;
+    display: block;
+    width: 100%;
+    margin-left: 10px;
+    color: $sidebar-font-color;
+    padding:10px 20px;
+}
+
+ul#main-menu li#about{
+    background: #5fcbb0;
+}
+
+ul#main-menu li#about{
+    background: #cb5f83;
+}
+ul#main-menu li#about{
+    background: #5f8dcb;
+}
+ul#main-menu li#about{
+    background: #cb5f5f;
+}
+
+ul#main-menu li a:hover{
+    background: $sidebar-hover-color;
+}
+
+ul#social-menu li{
+    display: inline;
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+#content{
+    background: #fff url(../images/bg.jpg) no-repeat;
+    min-height: 600px;
+    border-radius: 0px 7px 0px 0px;
+}
+
+h1{    
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.8em;
+    margin-top: 60px;
+}
+
+h2{
+    text-transform: uppercase;
+    margin-top:140px;
+}
+
+.skill-icons{
+    margin:20px 0 40px 0;
+}
+
+ul.skills{
+    margin-bottom:100px;
+}
+
+ul.skills li{
+    font-weight: bold;
+    color:#463a4c;
+}

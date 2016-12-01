@@ -1,0 +1,28 @@
+doctype html
+html.no-js
+    head
+        include includes/head.jade
+        title our project
+
+    body
+        include includes/mixins.jade
+       
+        .row#main-container
+            .medium-3.columns#left-bar
+
+                include includes/header.jade
+
+            .medium-9.columns#content
+                h1 I always try to do my best
+
+                .medium-6.columns
+                    +skillinfo('Frontend','Ho iniziato circa 2 anni fa lavorare nel mondo del frontend continuando a imparare nel mio tempo libero, le tecnologie che conosco sono le seguenti:','images/frontend-icons.png')
+
+                    +skills('HTML5','CSS3','JADE','SASS','JAVASCRIPT','XML')
+
+                .medium-6.columns
+                    +skillinfo('Backend','Circa un anno fa entrai anche nel mondo del backend, lavorando in un\'azienda ho cercato d\'imparere il più possibile','images/backend-icons.png')
+
+                    +skills('VB.NET','C#','JAVA','MONGODB','NODEJS')
+
+        include includes/footer.jade

@@ -1,0 +1,1 @@
+npm install --save-dev gulp gulp-jade gulp-sass gulp-concat gulp-livereload express gulp-data
